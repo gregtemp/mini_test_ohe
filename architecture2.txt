@@ -1,0 +1,20 @@
+input 734
+dense 400 mish
+dropout 0.5
+dense 150 mish
+dropout 0.5
+dense 60 mish
+dropout 0.5
+dense 20
+dropout 0.3
+dense 4 mish
+latent 2 relu
+input 2 mish
+dense 20 mish
+dropout 0.5
+dense 60 mish
+dropout 0.5
+dense 150 mish
+dropout 0.5
+dense 400 mish
+dense 734
